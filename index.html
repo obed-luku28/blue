@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GLORA — L'espace de travail des créateurs de contenu</title>
+<meta name="description" content="GLORA réunit planification, publication et analytics dans un seul espace pensé pour les créateurs de contenu.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav__inner">
+    <a href="#top" class="nav__logo">BLUE</a>
+    <nav class="nav__links">
+      <a href="#produit">Produit</a>
+      <a href="#fonctionnement">Fonctionnement</a>
+      <a href="#avis">Avis</a>
+      <a href="#tarifs">Tarifs</a>
+    </nav>
+    <div class="nav__cta">
+      <a href="#demo" class="btn btn--ghost">Voir la démo</a>
+      <a href="#essai" class="btn btn--primary">Essayer gratuitement</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__mobile" id="navMobile">
+    <a href="#produit">Produit</a>
+    <a href="#fonctionnement">Fonctionnement</a>
+    <a href="#avis">Avis</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#essai" class="btn btn--primary">Essayer gratuitement</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="wrap hero__inner">
+      <div class="hero__text">
+        <h1 class="hero__title">
+          <span class="hero__line">Créez du contenu.</span>
+          <span class="hero__line">Pas des <em>tableurs</em>.</span>
+        </h1>
+        <p class="hero__subtitle">
+          GLORA regroupe la planification, la publication multi-plateforme et le suivi de vos résultats
+          dans un seul espace, pensé pour la façon dont les créateurs travaillent vraiment.
+        </p>
+        <div class="hero__actions">
+          <a href="#essai" class="btn btn--primary btn--lg">Essayer gratuitement</a>
+          <a href="#demo" class="btn btn--text">Voir comment ça marche →</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__num" data-count="9400">0</span>
+            <span class="stat__label">créateurs actifs</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="2100000">0</span>
+            <span class="stat__label">publications gérées</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num" data-count="40">0</span>
+            <span class="stat__label">intégrations</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual" id="heroVisual">
+        <div class="mock">
+          <div class="mock__bar">
+            <span></span><span></span><span></span>
+            <div class="mock__tab">glora.app/dashboard</div>
+          </div>
+          <div class="mock__body">
+            <div class="mock__side">
+              <div class="mock__side-item mock__side-item--active"></div>
+              <div class="mock__side-item"></div>
+              <div class="mock__side-item"></div>
+              <div class="mock__side-item"></div>
+            </div>
+            <div class="mock__main">
+              <div class="mock__chart">
+                <div class="mock__bar-el" style="--h:40%"></div>
+                <div class="mock__bar-el" style="--h:65%"></div>
+                <div class="mock__bar-el" style="--h:50%"></div>
+                <div class="mock__bar-el" style="--h:85%"></div>
+                <div class="mock__bar-el" style="--h:60%"></div>
+                <div class="mock__bar-el" style="--h:95%"></div>
+              </div>
+              <div class="mock__row"></div>
+              <div class="mock__row mock__row--short"></div>
+            </div>
+          </div>
+        </div>
+        <div class="float-card float-card--1">
+          <span class="float-card__icon">✓</span>
+          <div>
+            <strong>Publié sur 4 plateformes</strong>
+            <small>il y a 2 min</small>
+          </div>
+        </div>
+        <div class="float-card float-card--2">
+          <strong>+18,4%</strong>
+          <small>engagement cette semaine</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS -->
+  <section class="logos">
+    <div class="wrap">
+      <p class="logos__label">Utilisé par des créateurs présents sur</p>
+      <div class="logos__row">
+        
+        <img src="images/instagram-logo-bold-svgrepo-com.svg" alt="Plateforme 3" loading="lazy">
+        <img src="images/tiktok-svgrepo-com.svg" alt="Plateforme 4" loading="lazy">
+        <img src="images/youtube-svgrepo-com.svg" alt="Plateforme 5" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM / SOLUTION -->
+  <section class="shift" id="produit">
+    <div class="wrap shift__inner">
+      <div class="shift__col reveal">
+        <p class="shift__kicker">Avant GLORA</p>
+        <ul class="shift__list shift__list--before">
+          <li>Un calendrier de contenu dans un tableur</li>
+          <li>Cinq apps ouvertes pour publier sur cinq réseaux</li>
+          <li>Des statistiques éparpillées, jamais comparées</li>
+          <li>Des heures perdues chaque semaine en allers-retours</li>
+        </ul>
+      </div>
+      <div class="shift__arrow reveal" aria-hidden="true">→</div>
+      <div class="shift__col shift__col--after reveal">
+        <p class="shift__kicker">Avec GLORA</p>
+        <ul class="shift__list shift__list--after">
+          <li>Un calendrier visuel partagé avec votre équipe</li>
+          <li>Une seule publication, diffusée partout</li>
+          <li>Un tableau de bord unique pour tous vos résultats</li>
+          <li>Plus de temps pour créer, moins pour organiser</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features">
+    <div class="wrap">
+      <div class="features__head reveal">
+        <h2>Trois piliers. Un seul espace.</h2>
+        <p>Chaque outil dont vous avez besoin, déjà connecté aux autres.</p>
+      </div>
+      <div class="features__grid">
+        <article class="feature feature--large reveal">
+          <div class="feature__icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="17" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M3 9h18M8 2v4M16 2v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Planification visuelle</h3>
+          <p>Glissez-déposez vos contenus sur un calendrier pensé pour les créateurs : idées, brouillons, validation, publication — tout au même endroit.</p>
+        </article>
+        <article class="feature reveal">
+          <div class="feature__icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 4l16 8-16 8V4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Publication multi-plateforme</h3>
+          <p>Un seul post, adapté et diffusé sur chaque réseau au bon format, au bon moment.</p>
+        </article>
+        <article class="feature reveal">
+          <div class="feature__icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V10M12 20V4M20 20v-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Analytics unifiées</h3>
+          <p>Comparez vos performances entre plateformes et identifiez ce qui fait vraiment grandir votre audience.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKFLOW -->
+  <section class="flow" id="fonctionnement">
+    <div class="wrap">
+      <div class="features__head reveal">
+        <h2>De l'idée à la publication, en trois étapes</h2>
+      </div>
+      <div class="flow__steps" id="flowSteps">
+        <div class="flow__line"><div class="flow__line-fill" id="flowFill"></div></div>
+        <div class="flow__step reveal">
+          <span class="flow__num">01</span>
+          <h3>Connectez vos comptes</h3>
+          <p>Reliez vos réseaux en quelques clics, en toute sécurité.</p>
+        </div>
+        <div class="flow__step reveal">
+          <span class="flow__num">02</span>
+          <h3>Planifiez votre contenu</h3>
+          <p>Organisez vos publications sur un calendrier commun à toute votre équipe.</p>
+        </div>
+        <div class="flow__step reveal">
+          <span class="flow__num">03</span>
+          <h3>Suivez vos résultats</h3>
+          <p>Visualisez l'impact réel de chaque publication, sur chaque plateforme.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testi" id="avis">
+    <div class="wrap">
+      <div class="features__head reveal">
+        <h2>Ils ont repris le contrôle de leur temps</h2>
+      </div>
+      <div class="testi__grid">
+        <figure class="testi__card reveal">
+          <blockquote>« J'ai arrêté de jongler entre quatre applications. Tout est maintenant au même endroit, et mon équipe voit enfin la même chose que moi. »</blockquote>
+          <figcaption>
+            <img src="images/avatar-1.jpg" alt="Portrait de Léa Morvan" loading="lazy">
+            <div><strong>Léa Morvan</strong><span>Créatrice, 210k abonnés</span></div>
+          </figcaption>
+        </figure>
+        <figure class="testi__card reveal">
+          <blockquote>« Les analytics unifiées m'ont montré que mes meilleurs contenus n'étaient pas ceux que je pensais. »</blockquote>
+          <figcaption>
+            <img src="images/avatar-2.jpg" alt="Portrait de Karim Belhadj" loading="lazy">
+            <div><strong>Karim Belhadj</strong><span>Podcasteur indépendant</span></div>
+          </figcaption>
+        </figure>
+        <figure class="testi__card reveal">
+          <blockquote>« On a divisé par trois le temps passé à publier chaque semaine. Ce temps, on le remet dans la création. »</blockquote>
+          <figcaption>
+            <img src="images/avatar-3.jpg" alt="Portrait de Sofia Ricci" loading="lazy">
+            <div><strong>Sofia Ricci</strong><span>Studio de contenu, 6 personnes</span></div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta" id="essai">
+    <div class="wrap cta__inner reveal">
+      <h2>Prêt à simplifier votre façon de créer ?</h2>
+      <p>Gratuit pendant 14 jours. Aucune carte bancaire requise.</p>
+      <a href="#" class="btn btn--primary btn--lg">Commencer maintenant</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" id="demo">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <span class="nav__logo">GLORA</span>
+      <p>L'espace de travail des créateurs de contenu.</p>
+    </div>
+    <div class="footer__cols">
+      <div>
+        <h4>Produit</h4>
+        <a href="#produit">Fonctionnalités</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#demo">Démo</a>
+      </div>
+      <div>
+        <h4>Entreprise</h4>
+        <a href="#">À propos</a>
+        <a href="#">Blog</a>
+        <a href="#">Carrières</a>
+      </div>
+      <div>
+        <h4>Ressources</h4>
+        <a href="#">Centre d'aide</a>
+        <a href="#">Communauté</a>
+        <a href="#">Statut</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <span>© 2026 GLORA. Tous droits réservés.</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
